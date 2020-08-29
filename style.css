@@ -6,7 +6,6 @@
 body {
   background: linear-gradient(120deg, #ff5e5e, rgb(255, 235, 206));
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   min-height: 100vh;
 }
 
@@ -75,4 +74,11 @@ form button:hover {
 
 .complete-btn {
     background: rgb(51, 153, 65);
+}
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash, .fa-check{
+    pointer-events: none;
 }
